@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "dev": "webpach --watch"
+    "dev": "webpack --watch"
   },
   "keywords": [],
   "author": "",
@@ -26,5 +26,9 @@
     "jest": "^24.9.0",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
